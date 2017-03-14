@@ -1,4 +1,4 @@
-package com.android.thongph.androidutils.helper;
+package com.android.thongph.androidutils.receiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -18,6 +18,17 @@ public class HeadphoneReceiver extends BroadcastReceiver {
 
     private Context context;
 
+    /**
+     * Default constructor
+     */
+    public HeadphoneReceiver() {
+    }
+
+    /**
+     * Default constructor
+     *
+     * @param context - context
+     */
     public HeadphoneReceiver(Context context) {
         this.context = context;
     }

@@ -15,6 +15,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Headphone receiver -->
+        <receiver android:name=".receiver.HeadphoneReceiver"/>
+
+        <!-- USB receiver -->
+        <receiver android:name=".receiver.USBReceiver"/>
     </application>
 
 </manifest>
